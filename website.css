@@ -1,4 +1,4 @@
-        html, 
+               html, 
          body {
                  margin: 0;
             }
@@ -12,7 +12,7 @@
             .banner__content {
                 padding: 0px;
                 border-style: double;
-                margin-left: 150px;
+                margin-left: 0px;
                 font-weight: bolder;
                 font-style: oblique;
                 color: black;
@@ -34,16 +34,18 @@
         width: 150px;
         border-radius: 75px;
         margin-bottom: 0%;
-        margin-left: 115px;
+        margin-left: 0px;
         border: double;
         box-shadow: -10px -10px 0px;
         margin-top: 15px;
+        margin-right: 0;
+        
     }
     
     button {
         margin-bottom: 0px;
         margin-left: 0;
-        margin-right: 20px;
+        margin-right: 0x;
         padding-top: 5px;
         padding-bottom: 5px;
         background: transparent;
@@ -51,6 +53,7 @@
         font-style: italic;
         transform: 0.15;
         margin-left: 60px;
+        float: inline-end;
     }
 
     button:hover {
@@ -116,18 +119,6 @@
     img {
         animation-name: slideInright;
         animation-duration: 3s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    
-        transform: translateX(-150px);
-    
-    }
-    
-    h6 {
-        animation-name: slideInright;
-        animation-duration: 6s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: 1;
         animation-direction: normal;
