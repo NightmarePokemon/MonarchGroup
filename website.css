@@ -12,7 +12,7 @@
             .banner__content {
                 padding: 0px;
                 border-style: double;
-                margin-left: 105px;
+                margin-left: 150px;
                 font-weight: bolder;
                 font-style: oblique;
                 color: black;
@@ -34,7 +34,7 @@
         width: 150px;
         border-radius: 75px;
         margin-bottom: 0%;
-        margin-left: 80px;
+        margin-left: 115px;
         border: double;
         box-shadow: -10px -10px 0px;
         margin-top: 15px;
@@ -42,13 +42,15 @@
     
     button {
         margin-bottom: 0px;
-        margin-top: 10px;
+        margin-left: 0;
+        margin-right: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
         background: transparent;
         border: solid;
         font-style: italic;
         transform: 0.15;
+        margin-left: 60px;
     }
 
     button:hover {
@@ -97,18 +99,6 @@
         font-size: larger;
         color: black;
         font-style: italic;
-    }
-
-    p {
-        animation-name: slideInright;
-        animation-duration: 5s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-    
-        transform: translateX(-150px);
-    
     }
 
     button {
@@ -160,8 +150,7 @@
     }
 
     em {
-        color: red;
-        text-decoration-line: underline;
+       color: red;
     }
 
     label {
