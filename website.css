@@ -1,0 +1,232 @@
+        html, 
+         body {
+                 margin: 0;
+            }
+
+            .banner {
+                background: linear-gradient(to top left, #ffff66 0%, #333300 100%);
+                max-width: 5000px;
+                padding-right: 1000px;
+            }
+
+            .banner__content {
+                padding: 0px;
+                border-style: double;
+                margin-left: 105px;
+                font-weight: bolder;
+                font-style: oblique;
+                color: black;
+                border-width: 10px;
+                border-radius: 5px;
+                font-size: 20px;
+            }
+
+            body {
+                background: url(https://tse3.mm.bing.net/th?id=OIP.-lO_YWxUBe6Vq1HDlwOnSQHaNL&pid=Api&P=0&h=220) no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                position: fixed;
+            }
+
+    img {
+        width: 150px;
+        border-radius: 75px;
+        margin-bottom: 0%;
+        margin-left: 80px;
+        border: double;
+        box-shadow: -10px -10px 0px;
+        margin-top: 15px;
+    }
+    
+    button {
+        margin-bottom: 0px;
+        margin-top: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background: transparent;
+        border: solid;
+        font-style: italic;
+        transform: 0.15;
+    }
+
+    button:hover {
+        background-color: gray;
+    }
+    
+
+    p {
+        border: solid;
+        height: 50px;
+        background-color: white;
+        margin-top: 0px;
+        position: fixed;
+        font-size: larger;
+        font-weight: bolder;
+        padding-bottom: 80px;
+        background: transparent;
+        font-style: italic;
+
+    }
+
+    h4 {
+        animation-name: slideInright;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+        transform: translateX(-150px);
+    
+    }
+    
+    @keyframes slideInright {
+        from {
+           transform: translateX(300px);
+        }
+    
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    h6 {
+        margin-top: 150px;
+        font-size: larger;
+        color: black;
+        font-style: italic;
+    }
+
+    p {
+        animation-name: slideInright;
+        animation-duration: 5s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+        transform: translateX(-150px);
+    
+    }
+
+    button {
+        animation-name: slideInright;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+        transform: translateX(-150px);
+    
+    }
+    
+    img {
+        animation-name: slideInright;
+        animation-duration: 3s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+        transform: translateX(-150px);
+    
+    }
+    
+    h6 {
+        animation-name: slideInright;
+        animation-duration: 6s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+        transform: translateX(-150px);
+    
+    }
+
+    .banner__content {
+        animation-name: slideInright;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+    
+        transform: translateX(-150px);
+    
+    }
+
+    em {
+        color: red;
+        text-decoration-line: underline;
+    }
+
+    label {
+        font-size: large;
+        font-style: italic;
+        font-weight: bolder;
+    }
+    
+    input {
+       border: solid;
+    }
+    
+    .button-submit {
+        margin-left: 150px;
+        box-shadow: 5px 5px 0 black;
+        color: white;
+        border-color: black;
+    }
+
+    form {
+        font-size: 20px;
+        font-weight: bolder;
+        font-style: italic;
+    }
+
+    a {
+        border-style: double;
+        margin-bottom: 10px;
+        margin-left: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: whitesmoke;
+        color: black;
+        box-shadow: 10px 10px 0;
+        font-weight: bolder;
+        font-style: italic;
+        position: fixed;
+    }
+      
+    .img-second {
+        margin-left:  0;
+        width: 80px;
+        border-radius: 25%;
+        margin-bottom: 0%;
+        margin-left: 0%;
+        border: double;
+        box-shadow: 10px -10px 0px;
+        margin-top: 0%;
+        padding-bottom: 40px;
+        margin-top: 30px;
+        position: fixed;
+    }
+
+    .img-third {
+        margin-left:  0;
+        width: 80px;
+        border-radius: 25%;
+        margin-bottom: 0%;
+        margin-left: 240px;
+        border: double;
+        box-shadow: 10px -10px 0px;
+        margin-top: 0%;
+        padding-bottom: 40px;
+        margin-top: 30px;
+        position: fixed;
+    }
